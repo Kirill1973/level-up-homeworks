@@ -1,5 +1,48 @@
-body {
-  background-color: indigo;
-  color: #fff;
-  font-size: 40px;
+html {
+  font-size: 16px;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  padding: 16px;
+}
+
+.content h1 {
+  font-size: 61px;
+}
+
+.content h2 {
+  font-size: 351%
+}
+
+.content h3 {
+  font-size: 3.1em;
+}
+
+.content h4 {
+  font-size: 2.5rem;
+}
+
+.content h5 {
+  font-size: 9vh;
+}
+
+.content h6 {
+  font-size: 1.5vw;
+} 
+
+.table tr td::first-letter {
+  color: red;
+}
+
+tr:nth-child(2n) {
+  background-color: #ddd;
+}
+
+tr:nth-child(odd)  td:nth-child(n + 5)  {
+  font-weight: bold;
+  font-style: italic;
 }
