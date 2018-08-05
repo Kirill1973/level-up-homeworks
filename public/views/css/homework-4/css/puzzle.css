@@ -1,0 +1,22 @@
+.container {
+  width: 300px;
+  height: 300px;
+}
+
+.container div {
+  padding: 0 5px 5px 0;
+}
+
+.red-square {
+  width: 70px;
+  height: 70px;
+  float: left;
+  background-color: purple;
+}
+
+.green-rectangle {
+  width: 145px;
+  height: 70px;
+  background-color: green;
+}
+
