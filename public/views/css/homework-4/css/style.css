@@ -43,7 +43,7 @@ footer {
 
 .width {
   width: 1170px;
-  margin-left: 177px;
+  margin: 0 auto;
 }
 
 body {
@@ -103,6 +103,7 @@ body {
 }
 .row {
   margin: 0 -29px;
+  font-size: 0;
 }
 .row:after {
   content: "";

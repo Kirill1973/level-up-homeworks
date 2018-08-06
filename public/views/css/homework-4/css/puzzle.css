@@ -5,6 +5,7 @@
 
 .container div {
   padding: 0 5px 5px 0;
+  display: inline-block;
 }
 
 .red-square {
@@ -18,5 +19,41 @@
   width: 145px;
   height: 70px;
   background-color: green;
+}
+
+.green-rectangle-two {
+  width: 145px;
+  height: 70px;
+  background-color: green;
+}
+
+.red-rectangle {
+  width: 70px;
+  height: 145px;
+  float: right;
+  background-color: red;
+}
+
+.red-rectangle-two {
+  width: 70px;
+  height: 145px;
+  background-color: red;
+}
+
+.blue-rectangle {
+  width: 70px;
+  height: 220px;
+  background-color: blue;
+}
+
+.yellow-square {
+  width: 70px;
+  height: 70px;
+  background-color: yellow;
+}
+
+.blue-rectangle-two {
+  width: 220px;
+  height: 70px;
 }
 
