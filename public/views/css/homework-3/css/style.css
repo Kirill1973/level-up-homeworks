@@ -50,10 +50,6 @@ footer {
   padding: 0 12px;
 }
 
- .nav .active:hover {
-  background-color: black;
-}
-
 .nav .active {
   text-decoration: underline;
 }
@@ -142,7 +138,11 @@ header {
 
 .pagination-item {
   text-decoration: underline;
-  padding-left: 48px;
+  margin-right: 24px;
+}
+
+.pagination-item:last-child {
+  margin-right: 0;
 }
 
 .pagination-item-active {
@@ -160,6 +160,3 @@ footer {
   text-align: center;
   padding-top: 4px;
 }
-
-/* unknown props */ 
-

@@ -5,55 +5,56 @@
 
 .container div {
   padding: 0 5px 5px 0;
-  display: inline-block;
 }
 
-.red-square {
+.square-indigo {
   width: 70px;
   height: 70px;
+  background-color: indigo;
   float: left;
-  background-color: purple;
 }
 
-.green-rectangle {
+.rectangle-green {
   width: 145px;
   height: 70px;
   background-color: green;
+  float: left;
 }
 
-.green-rectangle-two {
-  width: 145px;
-  height: 70px;
-  background-color: green;
-}
-
-.red-rectangle {
+.rectangle-red {
   width: 70px;
   height: 145px;
+  background-color: red;
   float: right;
-  background-color: red;
 }
-
-.red-rectangle-two {
-  width: 70px;
-  height: 145px;
-  background-color: red;
-}
-
-.blue-rectangle {
+.rectangle-blue {
   width: 70px;
   height: 220px;
   background-color: blue;
+  float: left;
 }
-
-.yellow-square {
+.square-orange {
   width: 70px;
   height: 70px;
-  background-color: yellow;
+  background-color: orangered;
+  float: right;
 }
-
-.blue-rectangle-two {
+.rectangle-red-again {
+  width: 70px;
+  height: 145px;
+  background-color: red;
+  float: left;
+}
+.rectangle-blue-again {
   width: 220px;
   height: 70px;
+  background-color: blue;
+  float: left;
+}
+.rectangle-green-again {
+  width: 145px;
+  height: 70px;
+  background-color: green;
+  float: right;
 }
 

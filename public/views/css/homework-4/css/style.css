@@ -41,12 +41,178 @@ footer {
   box-sizing: border-box;
 }
 
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .container {
   width: 1170px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 body {
   background-image: url("../images/1.png")
 }
 
+.header {
+  background-color: rgb(14, 197, 14);
+}
+
+.nav .nav-item {
+  line-height: 50px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-right: 12px;
+  color: white;
+}
+
+.nav .nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-item-active {
+  border-bottom: 2px solid orange;
+}
+
+.aut {
+  float: right;
+  margin-top: -34px;
+}
+
+.aut-item {
+  line-height: 15px;
+  color: white;
+}
+
+.bg-image {
+  background-image: url("../images/1.jpg");
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+.bg-image-title {
+  text-align: center;
+  color: white;
+  font-size: 92px;
+  padding-top: 264px;
+  font-weight: bold;
+}
+
+.content-section {
+  padding: 30px 0;
+}
+
+.content-title {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-bottom: 29px;
+}
+
+.row {
+  margin: 0 -15px;
+}
+.row:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.column {
+  width: 25%;
+  padding: 0 15px;
+  float: left;
+}
+
+.button {
+  display: inline-block;
+  vertical-align: top;
+  outline: 0;
+  border: 0;
+  border-radius: 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.button-size-default {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 8px;
+}
+
+.button-style {
+  background-color: green;
+  color: #fff;
+}
+
+.button-load {
+  text-align: center;
+}
+
+.button-theme-green {
+  color: green;
+  background: transparent;
+}
+
+.card {
+  margin-bottom: 30px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  border-radius: 3px;
+}
+
+.card-image {
+  background-image: url("../images/2.jpg");
+  height: 200px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: relative;
+}
+
+.card-title {
+  color: #fff;
+  position: absolute;
+  font-size: 20px;
+  bottom: 10px;
+  left: 14px;
+}
+
+.card-content {
+  padding: 12px;
+}
+
+.card-content-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.card-text {
+  padding: 15px 0;
+}
+
+.card-button {
+  margin-right: 12px;
+  float: left;
+}
+
+.card-button:last-child {
+  margin-right: 0;
+}
+
+.footer {
+  background-color: black;
+  padding: 40px 0;
+}
+
+.footer-links {
+  color: white;
+  font-size: 20px;
+  display: block;
+  padding: 12px 0;
+}
