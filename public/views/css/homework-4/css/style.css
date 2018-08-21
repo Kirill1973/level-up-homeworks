@@ -62,11 +62,15 @@ body {
 }
 
 .nav .nav-item {
-  line-height: 50px;
   text-transform: uppercase;
   display: inline-block;
   margin-right: 12px;
   color: white;
+}
+
+.nav {
+  line-height: 50px;
+  float: left;
 }
 
 .nav .nav-item:last-child {
@@ -78,12 +82,11 @@ body {
 }
 
 .aut {
+  line-height: 50px;
   float: right;
-  margin-top: -34px;
 }
 
 .aut-item {
-  line-height: 15px;
   color: white;
 }
 
@@ -170,7 +173,6 @@ body {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  width: 100%;
   position: relative;
 }
 
@@ -184,6 +186,7 @@ body {
 
 .card-content {
   padding: 12px;
+  background: #fff;
 }
 
 .card-content-title {
@@ -216,4 +219,3 @@ body {
   display: block;
   padding: 12px 0;
 }
-
