@@ -163,7 +163,7 @@ footer, .footer {
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   .col-sm-1 {
     width: 8.3333%;
   }
@@ -202,7 +202,7 @@ footer, .footer {
   }
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
   .col-md-1 {
     width: 8.3333%;
   }
@@ -384,7 +384,7 @@ input:checked + .checkbox:after {
   padding: 12px;
 }
 
-.card__text {
+.card__content-title {
   color: grey;
 }
 
@@ -403,13 +403,13 @@ input:checked + .checkbox:after {
   text-align: center;
 }
 
-.button--size {
+.button--size_default {
   height: 40px;
   line-height: 40px;
   padding: 0 8px;
 }
 
-.button--theme {
+.button--theme_green {
   color: green;
   background: transparent;
 }
