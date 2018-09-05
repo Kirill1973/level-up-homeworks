@@ -9,26 +9,102 @@ html {
   
 body {
   height: 100%;
-  color: #444;
+  color: rgb(0, 0, 0);
   font-family: Roboto, Arial, sans-serif;
-}
-  
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-}
-  
-.content {
-  flex: 1 0 auto;
-}
-  
-footer, .footer {
-  flex-shrink: 0;
 }
 
 .container {
-  width: 1170px;
-  padding: 0 15px;
+  width: 1200px;
   margin: 0 auto;
+  padding: 50px 15px;
+}
+
+.collection {
+  border: 1px solid rgb(145, 141, 141);
+  box-shadow: 0px 3px 36px  rgba(0, 0, 0, 0.6);
+}
+
+.collection-item {
+  display: table;
+  border-bottom: 1px solid rgb(143, 139, 139);
+  width: 100%;
+}
+
+.collection-item:last-child {
+  border-bottom: 0;
+}
+
+.collection-item__cell {
+  display: table-cell;
+  vertical-align: top;
+  padding: 16px;
+}
+
+.collection-item__icon {
+  width: 30px;
+  height: 30px;
+  background: url("../images/sprite.png");
+}
+
+.collection-item__cell--align_middle {
+  vertical-align: middle;
+}
+
+.collection-item__text {
+  margin: 0;
+}
+
+.collection-item__cell--full-width {
+  width: 100%;
+}
+
+.badge {
+  display: inline-block;
+  height: 30px;
+  color: white;
+  line-height: 30px;
+  vertical-align: top;
+  border-radius: 4px;
+  padding: 0 12px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.badge--pending {
+  background-color: orange;
+}
+
+.badge--error {
+  background-color: red;
+}
+
+.badge--approved {
+  background-color: green;
+}
+
+.collection-item__icon--edit {
+  background-position: 285px 187px;
+}
+
+.collection-item__icon--smile {
+  background-position: 347px 221px;
+}
+
+.collection-item__icon--cat {
+  background-position: 155px 186px;
+}
+
+.gradient {
+  padding: 60px;
+}
+
+.gradient--color {
+  border-radius: 50%;
+  background-image: radial-gradient(green, grey, black);
+  background-size: 7px 7px;
+  background-repeat: repeat;
+  margin: 0 auto;
+  box-shadow: inset -2px 20px 5px rgba(36, 26, 182, 0.8), inset -21px 0px 5px rgba(168, 28, 181, 0.8), inset 21px -18px 5px rgba(64, 77, 219, 0.8), inset 22px -2px 5px rgba(64, 235, 144, 0.8), inset 17px 22px 5px rgba(196, 219, 64, 0.8), inset -16px -23px 5px rgba(224, 167, 64, 0.8);
+  height: 200px;
+  width: 200px;
 }
