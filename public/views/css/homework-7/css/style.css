@@ -1,0 +1,119 @@
+.wrapper {
+    padding: 200px;
+    text-align: center;
+  }
+  
+  .preloader:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    width: 120px;
+    height: 1em;
+    overflow: hidden;
+    animation: timing 10s infinite step-end;
+    text-shadow: 0 0 4px rgba(0,0,0,0.5);
+  }
+  .preloader {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    position: relative;
+      font-size: 120px;
+  }
+  .preloader__inner {
+    border-radius: 50%;
+    background-image: radial-gradient(#7F7F7F, #494949);
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .preloader__half {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+  }
+  .preloader__half--left {
+    left: 0;
+  }
+  .preloader__half--right {
+    right: 0;
+  }
+  .preloader__circle {
+    border-radius: 50%;
+    border: 20px solid rgba(0, 65, 245, 0.7);
+    width: 200%;
+    height: 100%;
+    position: absolute;
+  }
+  .preloader__circle--left {
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    animation: rotate-left 10s linear infinite;
+  }
+  .preloader__circle--right {
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    right: 0;
+    animation: rotate-right 10s linear infinite;
+  }
+  
+  @keyframes timing {
+    0%{
+     content: '1';	
+     }
+      10%{
+     content: '2';
+     }
+    20%{
+     content: '3';
+     }
+    30%{
+     content: '4';
+     }
+    40%{
+     content: '5';
+     }
+    50%{
+     content: '6';
+     }
+    60%{
+     content: '7';
+     }
+    70%{
+     content: '8';
+     }
+    80%{
+     content: '9';
+     }
+    90%{
+     content: '10';
+     }
+  }
+  @keyframes rotate-right {
+    0% {
+      transform: rotateZ(-135deg);
+    }
+    50% {
+      transform: rotateZ(45deg);
+    }
+    100% {
+      transform: rotateZ(45deg);
+    }
+  }
+  @keyframes rotate-left {
+    0% {
+      transform: rotateZ(135deg);
+    }
+    50% {
+      transform: rotateZ(135deg);
+    }
+    100% {
+      transform: rotateZ(315deg);
+    }
+  }
