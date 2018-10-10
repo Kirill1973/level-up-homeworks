@@ -1,4 +1,6 @@
-var countCadrs = 10;
+'use strict';
+
+var amountFrames = 10;
 var delimiter = "/";
-var modeReading = 1;
-var watchLastPage = true;
+var readingMode = 1;
+var viewLastPage = true;
