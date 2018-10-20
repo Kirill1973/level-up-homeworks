@@ -1,6 +1,6 @@
 'use strict';
 
-var amountFrames = 10;
-var delimiter = "/";
-var readingMode = 1;
-var viewLastPage = true;
+var FPS = 10;
+var delimiter = '/';
+var documentView = 1;
+var showLastPage = true;

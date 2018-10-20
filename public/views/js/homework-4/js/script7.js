@@ -7,4 +7,4 @@ function checkAge(age) {
       return confirm('Родители разрешили?');
   }
 
-console.log(checkAge(17)); // работать будет так как условие пропускается, и идет на return.
+console.log(checkAge(17)); // Будет, так как у нас стоит ретурн вместо else

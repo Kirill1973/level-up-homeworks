@@ -1,6 +1,6 @@
 'use strict';
 
-let login = 'Вася';
+let login = 'Директор';
 let message = '';
-(login = 'Вася') ? message = 'Привет' : (login = 'Директор') ? message = 'Здравствуйте' : (login = '') ? message = 'нет логина' : message = '';
+message =  (login === 'Вася') ? 'Привет' : (login === 'Директор') ? 'Здравствуйте' : (login === '') ? 'нет логина' : '';
 console.log(message);
